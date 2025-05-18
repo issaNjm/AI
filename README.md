@@ -20,21 +20,23 @@ python -m venv .venv
 
 # On macOS/Linux:
 source .venv/bin/activate
-##############################################################################################
+```
+## Project 1: Titanic Survival Prediction
+**Description:**
+Predict survival on the Titanic dataset using classification models with exploratory data analysis, preprocessing, and hyperparameter tuning.
 
-Project 1: Titanic Survival Prediction
-Description: Predict survival on the Titanic dataset using classification models with exploratory data analysis, preprocessing, and hyperparameter tuning.
+**Required Libraries:**
+pandas, seaborn, matplotlib, scikit-learn, xgboost
 
-Required libraries: pandas, seaborn, matplotlib, scikit-learn, xgboost
+**Steps:**
 
-Steps:
+- Run exploratory data analysis notebooks/scripts
 
-Run exploratory data analysis notebooks/scripts
+- Execute preprocessing pipeline
 
-Execute preprocessing pipeline
+- Train and tune models using GridSearchCV
 
-Train and tune models using GridSearchCV
+- Evaluate model performance on test data
 
-Evaluate model performance on test data
-
-Needed Libraries: pip install pandas seaborn matplotlib scikit-learn xgboost
+  ------
+  For more details, check the [Project 1 README](./01_Machine%20Learning%20Basics%20(titanic%20project)/README.md).
